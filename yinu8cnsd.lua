@@ -71,6 +71,34 @@ do
                     ControlGradient1 = Color3.fromRGB(255, 255, 255);
                     ControlGradient2 = Color3.fromRGB(200, 200, 200);
                 }
+            elseif (theme == 'red') then         -- new red theme
+                theme = {
+                    Primary = Color3.fromRGB(255, 59, 48);    -- Vibrant red
+                    Secondary = Color3.fromRGB(255, 149, 0);  -- Orange-red complement
+                    
+                    Window1 = Color3.fromRGB(28, 28, 30);     -- Dark gray for headers
+                    Window2 = Color3.fromRGB(18, 18, 20);     -- Darker background
+                    Window3 = Color3.fromRGB(23, 23, 25);     -- Slightly lighter for sidebar
+                    
+                    Button1 = Color3.fromRGB(30, 30, 32);     -- Idle disabled button
+                    Button2 = Color3.fromRGB(35, 35, 37);     -- Disabled button focused
+                    Button3 = Color3.fromRGB(45, 45, 47);     -- Idle enabled button
+                    Button4 = Color3.fromRGB(50, 50, 52);     -- Enabled button focused
+                    
+                    Stroke = Color3.fromRGB(65, 65, 70);      -- Neutral stroke
+                    StrokeHover = Color3.fromRGB(120, 60, 60);-- Red-tinted hover stroke
+                    
+                    Inset1 = Color3.fromRGB(15, 15, 17);      -- Dark inset for Window1
+                    Inset2 = Color3.fromRGB(10, 10, 12);      -- Darker inset for Window2
+                    Inset3 = Color3.fromRGB(13, 13, 15);      -- Inset for Window3
+                    
+                    TextPrimary = Color3.fromRGB(255, 255, 255); -- Bright white text
+                    TextStroke = Color3.fromRGB(0, 0, 0);     -- Black text stroke
+                    TextDim = Color3.fromRGB(180, 180, 180);  -- Light gray dim text
+                    
+                    ControlGradient1 = Color3.fromRGB(255, 255, 255); -- White gradient top
+                    ControlGradient2 = Color3.fromRGB(210, 210, 210); -- Light gray gradient bottom
+                }
             elseif (theme == 'orange') then      -- orange
                 theme = {
                     Primary = Color3.fromRGB(244, 148, 22);
